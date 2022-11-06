@@ -1,10 +1,9 @@
 package main
 
 import (
-    "fmt"
-    "main/stringutil"
-    "main/icomefromchina"
-
+	"fmt"
+	"main/02_package/icomefromchina"
+	"main/02_package/stringutil"
 )
 
 
