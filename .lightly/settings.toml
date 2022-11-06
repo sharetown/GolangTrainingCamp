@@ -3,4 +3,4 @@ ports = []
 language = "go"
 [languages.go.run."main.go"]
 name = "main.go"
-path = "/workspace/GolangTrainingCamp/01_入门/02_数字系统/04_循环/main.go"
+path = "/workspace/GolangTrainingCamp/02_package/main/main.go"
