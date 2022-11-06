@@ -9,10 +9,10 @@ path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/06_init-shor
 name = "variables.go"
 path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/07_all-together/variables.go"
 
-[languages.go.run."main.go"]
-name = "main.go"
-path = "/workspace/GolangTrainingCamp/06_constants/07_iota/main.go"
-
 [languages.go.run."myNameVar.go"]
 name = "myNameVar.go"
 path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/08_exercise_your-name/04_anotherSolution/myNameVar.go"
+
+[languages.go.run."main.go"]
+name = "main.go"
+path = "/workspace/GolangTrainingCamp/07_memory-address/02_using-address/main.go"
