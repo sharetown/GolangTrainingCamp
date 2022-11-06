@@ -1,17 +1,17 @@
 ports = []
 [languages.go]
 language = "go"
-[languages.go.run."var.go"]
-name = "var.go"
-path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/06_init-shorthand/var.go"
-
-[languages.go.run."main.go"]
-name = "main.go"
-path = "/workspace/GolangTrainingCamp/03_variables/02_var_zero-value/main.go"
-
 [languages.go.run."variables.go"]
 name = "variables.go"
 path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/07_all-together/variables.go"
+
+[languages.go.run."main.go"]
+name = "main.go"
+path = "/workspace/GolangTrainingCamp/04_scope/05_same-package/main.go"
+
+[languages.go.run."var.go"]
+name = "var.go"
+path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/06_init-shorthand/var.go"
 
 [languages.go.run."myNameVar.go"]
 name = "myNameVar.go"
