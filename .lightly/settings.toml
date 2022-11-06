@@ -7,7 +7,7 @@ path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/07_all-toget
 
 [languages.go.run."main.go"]
 name = "main.go"
-path = "/workspace/GolangTrainingCamp/04_scope/05_same-package/main.go"
+path = "/workspace/GolangTrainingCamp/05_blank-identifier/02_http-get_example/02_no-error-checking/main.go"
 
 [languages.go.run."var.go"]
 name = "var.go"
