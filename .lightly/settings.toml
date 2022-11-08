@@ -1,21 +1,25 @@
 ports = []
 [languages.go]
 language = "go"
+[languages.go.run."bm_test.go"]
+name = "bm_test.go"
+path = "/workspace/GolangTrainingCamp/13_exercise-solutions/08_just-fyi/01_benchMark/bm_test.go"
+
+[languages.go.run."myNameVar.go"]
+name = "myNameVar.go"
+path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/08_exercise_your-name/04_anotherSolution/myNameVar.go"
+
 [languages.go.run."main.go"]
 name = "main.go"
-path = "/workspace/GolangTrainingCamp/12_if_else-if_else/08_divisibleByThree/main.go"
-
-[languages.go.run."variables.go"]
-name = "variables.go"
-path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/07_all-together/variables.go"
+path = "/workspace/GolangTrainingCamp/13_exercise-solutions/08_just-fyi/03_utf/main.go"
 
 [languages.go.run."type.go"]
 name = "type.go"
 path = "/workspace/GolangTrainingCamp/11_switch-statements/05_on-type/type.go"
 
-[languages.go.run."myNameVar.go"]
-name = "myNameVar.go"
-path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/08_exercise_your-name/04_anotherSolution/myNameVar.go"
+[languages.go.run."variables.go"]
+name = "variables.go"
+path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/07_all-together/variables.go"
 
 [languages.go.run."var.go"]
 name = "var.go"
