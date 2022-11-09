@@ -1,9 +1,21 @@
 ports = []
 [languages.go]
 language = "go"
+[languages.go.run."if-else.go"]
+name = "if-else.go"
+path = "/workspace/GolangTrainingCamp/6_if_else/if-else.go"
+
 [languages.go.run."bm_test.go"]
 name = "bm_test.go"
 path = "/workspace/GolangTrainingCamp/13_exercise-solutions/08_just-fyi/01_benchMark/bm_test.go"
+
+[languages.go.run."type.go"]
+name = "type.go"
+path = "/workspace/GolangTrainingCamp/11_switch-statements/05_on-type/type.go"
+
+[languages.go.run."hello_word.go"]
+name = "hello_word.go"
+path = "/workspace/GolangTrainingCamp/01_hello_world/hello_word.go"
 
 [languages.go.run."myNameVar.go"]
 name = "myNameVar.go"
@@ -13,9 +25,21 @@ path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/08_exercise_
 name = "main.go"
 path = "/workspace/GolangTrainingCamp/13_exercise-solutions/08_just-fyi/03_utf/main.go"
 
-[languages.go.run."type.go"]
-name = "type.go"
-path = "/workspace/GolangTrainingCamp/11_switch-statements/05_on-type/type.go"
+[languages.go.run."range.go"]
+name = "range.go"
+path = "/workspace/GolangTrainingCamp/11_range/range.go"
+
+[languages.go.run."value.go"]
+name = "value.go"
+path = "/workspace/GolangTrainingCamp/2_values/value.go"
+
+[languages.go.run."switch.go"]
+name = "switch.go"
+path = "/workspace/GolangTrainingCamp/7_switch_case/switch.go"
+
+[languages.go.run."variable.go"]
+name = "variable.go"
+path = "/workspace/GolangTrainingCamp/3_variables/variable.go"
 
 [languages.go.run."variables.go"]
 name = "variables.go"
@@ -24,3 +48,23 @@ path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/07_all-toget
 [languages.go.run."var.go"]
 name = "var.go"
 path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/06_init-shorthand/var.go"
+
+[languages.go.run."arrays.go"]
+name = "arrays.go"
+path = "/workspace/GolangTrainingCamp/14_arrays/arrays.go"
+
+[languages.go.run."constant.go"]
+name = "constant.go"
+path = "/workspace/GolangTrainingCamp/4_const/constant.go"
+
+[languages.go.run."for.go"]
+name = "for.go"
+path = "/workspace/GolangTrainingCamp/5_for_loop/for.go"
+
+[languages.go.run."map.go"]
+name = "map.go"
+path = "/workspace/GolangTrainingCamp/10_maps/map.go"
+
+[languages.go.run."slices.go"]
+name = "slices.go"
+path = "/workspace/GolangTrainingCamp/15_slices/slices.go"
