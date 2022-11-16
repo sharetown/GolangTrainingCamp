@@ -1,89 +1,21 @@
 ports = []
 [languages.go]
 language = "go"
-[languages.go.run."for.go"]
-name = "for.go"
-path = "/workspace/GolangTrainingCamp/5_for_loop/for.go"
+[languages.go.run."type.go"]
+name = "type.go"
+path = "/workspace/GolangTrainingCamp/11_switch-statements/05_on-type/type.go"
 
-[languages.go.run."closing-channel.go"]
-name = "closing-channel.go"
-path = "/workspace/GolangTrainingCamp/30_closing-channels/closing-channel.go"
+[languages.go.run."waitgroup.go"]
+name = "waitgroup.go"
+path = "/workspace/GolangTrainingCamp/35_waitgroups/waitgroup.go"
 
-[languages.go.run."function.go"]
-name = "function.go"
-path = "/workspace/GolangTrainingCamp/12_functions/function.go"
+[languages.go.run."rate-limiting.go"]
+name = "rate-limiting.go"
+path = "/workspace/GolangTrainingCamp/36_rate-limiting/rate-limiting.go"
 
-[languages.go.run."variables.go"]
-name = "variables.go"
-path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/07_all-together/variables.go"
-
-[languages.go.run."channel-buffer.go"]
-name = "channel-buffer.go"
-path = "/workspace/GolangTrainingCamp/24_channel-buffering/channel-buffer.go"
-
-[languages.go.run."non-blocking-channel-operation.go"]
-name = "non-blocking-channel-operation.go"
-path = "/workspace/GolangTrainingCamp/29_non-blocking-channel-operations/non-blocking-channel-operation.go"
-
-[languages.go.run."value.go"]
-name = "value.go"
-path = "/workspace/GolangTrainingCamp/2_values/value.go"
-
-[languages.go.run."range.go"]
-name = "range.go"
-path = "/workspace/GolangTrainingCamp/11_range/range.go"
-
-[languages.go.run."range-over-channel.go"]
-name = "range-over-channel.go"
-path = "/workspace/GolangTrainingCamp/31_range-over-channels/range-over-channel.go"
-
-[languages.go.run."select.go"]
-name = "select.go"
-path = "/workspace/GolangTrainingCamp/27_select/select.go"
-
-[languages.go.run."interface.go"]
-name = "interface.go"
-path = "/workspace/GolangTrainingCamp/20_interfaces/interface.go"
-
-[languages.go.run."variable.go"]
-name = "variable.go"
-path = "/workspace/GolangTrainingCamp/3_variables/variable.go"
-
-[languages.go.run."switch.go"]
-name = "switch.go"
-path = "/workspace/GolangTrainingCamp/7_switch_case/switch.go"
-
-[languages.go.run."myNameVar.go"]
-name = "myNameVar.go"
-path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/08_exercise_your-name/04_anotherSolution/myNameVar.go"
-
-[languages.go.run."timeout.go"]
-name = "timeout.go"
-path = "/workspace/GolangTrainingCamp/28_timeouts/timeout.go"
-
-[languages.go.run."multiple-return-value.go"]
-name = "multiple-return-value.go"
-path = "/workspace/GolangTrainingCamp/13_multiple-return-values/multiple-return-value.go"
-
-[languages.go.run."26_channel-directions.go"]
-name = "26_channel-directions.go"
-path = "/workspace/GolangTrainingCamp/26_channel-directions/26_channel-directions.go"
-
-[languages.go.run."channel-synchronization.go"]
-name = "channel-synchronization.go"
-path = "/workspace/GolangTrainingCamp/25_channel-synchronization/channel-synchronization.go"
-
-[languages.go.run."main.go"]
-name = "main.go"
-path = "/workspace/GolangTrainingCamp/13_exercise-solutions/08_just-fyi/03_utf/main.go"
-
-[languages.go.run."channel.go"]
-name = "channel.go"
-path = "/workspace/GolangTrainingCamp/23_channels/channel.go"
-
-[languages.go.run."recursion.go"]
-name = "recursion.go"
-path = "/workspace/GolangTrainingCamp/16_recursion/recursion.go"
+[languages.go.run."atomic-counter.go"]
+name = "atomic-counter.go"
+path = "/workspace/GolangTrainingCamp/37_atomic-counters/atomic-counter.go"
 
 [languages.go.run."bm_test.go"]
 name = "bm_test.go"
@@ -93,66 +25,150 @@ path = "/workspace/GolangTrainingCamp/13_exercise-solutions/08_just-fyi/01_bench
 name = "hello_word.go"
 path = "/workspace/GolangTrainingCamp/01_hello_world/hello_word.go"
 
-[languages.go.run."type.go"]
-name = "type.go"
-path = "/workspace/GolangTrainingCamp/11_switch-statements/05_on-type/type.go"
-
-[languages.go.run."timer.go"]
-name = "timer.go"
-path = "/workspace/GolangTrainingCamp/32_timers/timer.go"
-
-[languages.go.run."var.go"]
-name = "var.go"
-path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/06_init-shorthand/var.go"
-
-[languages.go.run."pointer.go"]
-name = "pointer.go"
-path = "/workspace/GolangTrainingCamp/17_pointers/pointer.go"
-
-[languages.go.run."variadic-function.go"]
-name = "variadic-function.go"
-path = "/workspace/GolangTrainingCamp/14_variadic-functions/variadic-function.go"
+[languages.go.run."struct.go"]
+name = "struct.go"
+path = "/workspace/GolangTrainingCamp/18_structs/struct.go"
 
 [languages.go.run."map.go"]
 name = "map.go"
 path = "/workspace/GolangTrainingCamp/10_maps/map.go"
 
-[languages.go.run."struct.go"]
-name = "struct.go"
-path = "/workspace/GolangTrainingCamp/18_structs/struct.go"
+[languages.go.run."timeout.go"]
+name = "timeout.go"
+path = "/workspace/GolangTrainingCamp/28_timeouts/timeout.go"
 
 [languages.go.run."ticker.go"]
 name = "ticker.go"
 path = "/workspace/GolangTrainingCamp/33_tickers/ticker.go"
 
-[languages.go.run."if-else.go"]
-name = "if-else.go"
-path = "/workspace/GolangTrainingCamp/6_if_else/if-else.go"
+[languages.go.run."select.go"]
+name = "select.go"
+path = "/workspace/GolangTrainingCamp/27_select/select.go"
 
-[languages.go.run."closure.go"]
-name = "closure.go"
-path = "/workspace/GolangTrainingCamp/15_closures/closure.go"
+[languages.go.run."myNameVar.go"]
+name = "myNameVar.go"
+path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/08_exercise_your-name/04_anotherSolution/myNameVar.go"
 
-[languages.go.run."error.go"]
-name = "error.go"
-path = "/workspace/GolangTrainingCamp/21_errors/error.go"
+[languages.go.run."variadic-function.go"]
+name = "variadic-function.go"
+path = "/workspace/GolangTrainingCamp/14_variadic-functions/variadic-function.go"
 
-[languages.go.run."goroutine.go"]
-name = "goroutine.go"
-path = "/workspace/GolangTrainingCamp/22_goroutines/goroutine.go"
+[languages.go.run."range.go"]
+name = "range.go"
+path = "/workspace/GolangTrainingCamp/11_range/range.go"
 
 [languages.go.run."constant.go"]
 name = "constant.go"
 path = "/workspace/GolangTrainingCamp/4_const/constant.go"
 
-[languages.go.run."arrays.go"]
-name = "arrays.go"
-path = "/workspace/GolangTrainingCamp/14_arrays/arrays.go"
+[languages.go.run."variables.go"]
+name = "variables.go"
+path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/07_all-together/variables.go"
+
+[languages.go.run."multiple-return-value.go"]
+name = "multiple-return-value.go"
+path = "/workspace/GolangTrainingCamp/13_multiple-return-values/multiple-return-value.go"
+
+[languages.go.run."error.go"]
+name = "error.go"
+path = "/workspace/GolangTrainingCamp/21_errors/error.go"
+
+[languages.go.run."timer.go"]
+name = "timer.go"
+path = "/workspace/GolangTrainingCamp/32_timers/timer.go"
+
+[languages.go.run."goroutine.go"]
+name = "goroutine.go"
+path = "/workspace/GolangTrainingCamp/22_goroutines/goroutine.go"
+
+[languages.go.run."worker-pool.go"]
+name = "worker-pool.go"
+path = "/workspace/GolangTrainingCamp/34_worker-pools/worker-pool.go"
+
+[languages.go.run."interface.go"]
+name = "interface.go"
+path = "/workspace/GolangTrainingCamp/20_interfaces/interface.go"
+
+[languages.go.run."for.go"]
+name = "for.go"
+path = "/workspace/GolangTrainingCamp/5_for_loop/for.go"
+
+[languages.go.run."variable.go"]
+name = "variable.go"
+path = "/workspace/GolangTrainingCamp/3_variables/variable.go"
+
+[languages.go.run."non-blocking-channel-operation.go"]
+name = "non-blocking-channel-operation.go"
+path = "/workspace/GolangTrainingCamp/29_non-blocking-channel-operations/non-blocking-channel-operation.go"
+
+[languages.go.run."range-over-channel.go"]
+name = "range-over-channel.go"
+path = "/workspace/GolangTrainingCamp/31_range-over-channels/range-over-channel.go"
+
+[languages.go.run."var.go"]
+name = "var.go"
+path = "/workspace/GolangTrainingCamp/03_variables/03_less-emphasis/06_init-shorthand/var.go"
+
+[languages.go.run."channel-buffer.go"]
+name = "channel-buffer.go"
+path = "/workspace/GolangTrainingCamp/24_channel-buffering/channel-buffer.go"
+
+[languages.go.run."if-else.go"]
+name = "if-else.go"
+path = "/workspace/GolangTrainingCamp/6_if_else/if-else.go"
+
+[languages.go.run."value.go"]
+name = "value.go"
+path = "/workspace/GolangTrainingCamp/2_values/value.go"
+
+[languages.go.run."switch.go"]
+name = "switch.go"
+path = "/workspace/GolangTrainingCamp/7_switch_case/switch.go"
+
+[languages.go.run."method.go"]
+name = "method.go"
+path = "/workspace/GolangTrainingCamp/19_methods/method.go"
 
 [languages.go.run."slices.go"]
 name = "slices.go"
 path = "/workspace/GolangTrainingCamp/15_slices/slices.go"
 
-[languages.go.run."method.go"]
-name = "method.go"
-path = "/workspace/GolangTrainingCamp/19_methods/method.go"
+[languages.go.run."recursion.go"]
+name = "recursion.go"
+path = "/workspace/GolangTrainingCamp/16_recursion/recursion.go"
+
+[languages.go.run."channel-synchronization.go"]
+name = "channel-synchronization.go"
+path = "/workspace/GolangTrainingCamp/25_channel-synchronization/channel-synchronization.go"
+
+[languages.go.run."closure.go"]
+name = "closure.go"
+path = "/workspace/GolangTrainingCamp/15_closures/closure.go"
+
+[languages.go.run."26_channel-directions.go"]
+name = "26_channel-directions.go"
+path = "/workspace/GolangTrainingCamp/26_channel-directions/26_channel-directions.go"
+
+[languages.go.run."function.go"]
+name = "function.go"
+path = "/workspace/GolangTrainingCamp/12_functions/function.go"
+
+[languages.go.run."channel.go"]
+name = "channel.go"
+path = "/workspace/GolangTrainingCamp/23_channels/channel.go"
+
+[languages.go.run."main.go"]
+name = "main.go"
+path = "/workspace/GolangTrainingCamp/13_exercise-solutions/08_just-fyi/03_utf/main.go"
+
+[languages.go.run."arrays.go"]
+name = "arrays.go"
+path = "/workspace/GolangTrainingCamp/14_arrays/arrays.go"
+
+[languages.go.run."pointer.go"]
+name = "pointer.go"
+path = "/workspace/GolangTrainingCamp/17_pointers/pointer.go"
+
+[languages.go.run."closing-channel.go"]
+name = "closing-channel.go"
+path = "/workspace/GolangTrainingCamp/30_closing-channels/closing-channel.go"
